@@ -1,0 +1,7 @@
+Deberán crear una página en html con una breve presentación personal
+-¿Quiénes son?
+-¿de donde son?
+-Hobbies, actividades que realizan 
+-¿ Por qué se anotaron en Codo a Codo?
+
+Deberán realizar la pagina con todo lo visto hasta el dia de la fecha
