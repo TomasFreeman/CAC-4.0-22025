@@ -1,15 +1,13 @@
 .navegador
 {
     background-color: lightgrey; 
-    text-align: right;
+    text-align: center;
     border: 2px solid black;
     width: 600px;
-    height: 60px;
+    height: auto;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-
-    padding-top: 5px;
 
     /*
     margin: 50px 100px 50px 100px;
@@ -33,7 +31,19 @@
 {
     width: 800px;
     height: 400px;
-    background-color: antiquewhite; 
+    
     margin: auto;
     margin-top: 50px;
+}
+
+.footer
+{
+    margin: auto;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.div
+{
+    font-family: 'Dancing Script', cursive;  
 }
