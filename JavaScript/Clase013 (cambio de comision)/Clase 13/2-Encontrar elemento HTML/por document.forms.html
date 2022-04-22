@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+</head>
+<body>
+    <h2> Búsqueda de elementos HTML mediante document.forms </h2>
+
+  <form action="">
+  Nombre: <input type="text" name="fname" value="Juan">
+  <input type="submit" value="Submit">
+  </form> 
+
+  <p id="demo"></p>
+  <!-- devuelve la cantidad de formularios del archivo html -->
+  <script>
+  document.getElementById("demo").innerHTML ="Numero de Elementos del Formulario: " + document.forms.length;
+  </script>
+
+</body>
+</html>

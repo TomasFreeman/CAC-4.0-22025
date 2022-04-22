@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Búsqueda de elementos HTML mediante document.anchors </h2>
+
+<a name="html">Tutorial HTML </a><br>
+<a name="css">Tutorial CSS </a><br>
+<a name="xml">Tutorial XML </a><br>
+
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML =
+    "Numero de vinculos: " + document.anchors.length;
+</script>
+</body>
+
+</html>
