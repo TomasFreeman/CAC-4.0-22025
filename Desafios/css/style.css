@@ -3,8 +3,14 @@
     background-image: url(../imagenes_integrador_front/honolulu.jpg); 
     
 }
-.steve{
-    height: 50;
-    width: 200;
+.btn_enviar
+{
+    padding-left: 50%; 
+    padding-right: 50%;
+    padding-top: 2px;
 }
 
+footer{
+    background: linear-gradient(to right, #1c3643 0%, #1d5271 100%);
+
+}
