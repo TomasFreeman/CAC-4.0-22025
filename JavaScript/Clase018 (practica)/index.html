@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    </head>
+    <body>
+
+        <!-- <script>
+                var A;
+                var B;
+                var R;
+
+                A=parseInt(prompt("Ingresar Numero A", ""))
+                B=parseInt(prompt("Ingresar Numero B", ""))
+
+                if(A>B)
+                {
+                    R=A;
+                    document.write("El Numero Mayor es: "+R+" Numero A")
+                }
+                else 
+                {               
+                    R=B;
+                    document.write("El Numero Mayor es: "+R+" Numero B") 
+                }         
+        </script> -->
+
+
+        <!-- <p>Ingrese notas del 1 al 10</p>
+        <script>
+            var nota1, nota2, nota3, promedio;
+
+
+            nota1=parseInt(prompt("nota 1: ", ""))
+            nota2=parseInt(prompt("nota 2: ", ""))
+            nota3=parseInt(prompt("nota 3: ", ""))
+
+            promedio=(nota1+nota2+nota3)/3;
+
+
+            
+            if(promedio>=7)
+            {
+                document.write("Promedio: "+promedio+" Promocionado")
+            }
+            else if(promedio<4)
+            {
+                document.write("Promedio: "+promedio+" Reprobado")
+            }
+            else
+            {
+                document.write("Promedio: "+promedio+" Regular")
+            }
+
+        </script> -->
+
+        <script>
+            let juego= prompt("Ingrese alguno de estos numeros:1) - Para comenzar  2) - Para Salir");
+            
+            if (juego == 1)
+            {
+                let puerta= prompt("Eliga una puerta (coloque el numero de la opcion):1) - Abrir puerta A          2) - Abrir puerta B");
+                if (puerta == 1)
+                {
+                    alert("Cuidado hay un tigre!!")
+                    let opcion= prompt("Escriba el numero de su opcion: 1 - Darle un pedazo de carne 2 -Cerra la puerta e irse corriendo")
+                    if (opcion == 1)
+                    {
+                        alert("Felicitaciones!! El león se corre y encontramos el tesoro")
+                    }
+                    else
+                    {
+                        alert("Adios!!")
+                    }
+
+                }
+                if (puerta == 2)
+                {
+                    alert("OH! Camino sin salida =(")
+                }
+                
+            }
+            else
+            {
+                alert("Adios!")
+            }
+            
+        </script>
+    
+    </body>
+</html>
